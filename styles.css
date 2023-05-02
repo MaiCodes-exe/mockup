@@ -216,3 +216,13 @@ font-weight: var(--fw-700);
     padding: 4px;
 }
 
+.navbar-item:not(:last-child){
+    border-bottom: 1px solid var(--platinum);
+}
+
+.navbar-link{
+    color: var(--space-cadet-1);
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600) ;
+    padding-block: 12px;
+}
