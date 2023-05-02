@@ -137,7 +137,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding-block:14px ;
+    padding-block: 14px ;
     z-index: 4;
     transition: var(--transition-1);
 }
@@ -151,7 +151,7 @@ box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
 }
 
 
-.header.container{
+.header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,3 +194,16 @@ transition: o.5s var(--cubic-out);
 }
 
 
+.navbar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px 30px;
+
+}
+
+
+.navbar-top .logo{
+color: var(--st-patricks-blue);
+
+}
