@@ -115,8 +115,34 @@ body{
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
 
+/* container styling will be reused */
 
 
 
 
+/* header styling */
 
+.overlay,
+.navbar,
+.header.btn{
+    display: none;
+}
+
+.header{
+    --color: var(--white);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block:14px ;
+    z-index: 4;
+    transition: var(--transition-1);
+}
+
+.header.active{
+    --color: var(--st-patricks-blue);
+position: fixed;
+background-color: var(--white);
+box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
+
+}
