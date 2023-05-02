@@ -127,7 +127,7 @@ body{
 
 .overlay,
 .navbar,
-.header.btn{
+.header .btn{
     display: none;
 }
 
