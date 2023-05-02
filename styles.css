@@ -174,10 +174,10 @@ box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
 
 
 .navbar{
-    background-color: var(--white);
-    position: fixed;
+background-color: var(--white);
+position: fixed;
 top: 0;
-left: 0;
+left: -280px;
 width: 100%;
 max-width: 280px;
 min-height: 100%;
@@ -186,3 +186,11 @@ visibility: hidden;
 z-index: 2;
 transition: 0.25s var(--cubic-in);
 }
+
+.navbar.active{
+transform: translateX(280px);
+visibility: visible;
+transition: o.5s var(--cubic-out);
+}
+
+
