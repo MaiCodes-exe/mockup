@@ -205,5 +205,7 @@ transition: o.5s var(--cubic-out);
 
 .navbar-top .logo{
 color: var(--st-patricks-blue);
+font-size: 4.2rem;
+font-weight: var(--fw-700);
 
 }
