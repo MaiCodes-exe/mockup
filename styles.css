@@ -116,7 +116,10 @@ body{
 
 
 /* container styling will be reused */
+.container{
+    padding-inline: 15px;
 
+}
 
 
 
@@ -145,4 +148,33 @@ position: fixed;
 background-color: var(--white);
 box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
 
+}
+
+
+.header.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.logo{
+    color: var(--color);
+    font-family: var(--ff-source-sans-pro);
+    font-size: var(--fs-3); 
+}
+
+.nav-open.btn{
+    color: var(--color);
+    font-size: 13px;
+    padding: 4px;
+
+}
+
+
+.navbar{
+    background-color: var(--white);
+    position: fixed;
+    
 }
