@@ -113,6 +113,16 @@ html {
 
 ::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
+/* Reusable styles */
+.container{padding-inline: 15px}
+
+
+
+
+
+/* header styling */
+
+
 
 .navbar{display: none}
 
