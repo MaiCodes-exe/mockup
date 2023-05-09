@@ -147,3 +147,15 @@ html {
     font-size: var(--fs-2);
     font-weight: var(--fw-600);
   }
+
+  .nav-toggle-btn.active .open,
+.nav-toggle-btn .close { display: none; }
+
+.nav-toggle-btn .open,
+.nav-toggle-btn.active .close { display: block; }
+
+.nav-toggle-btn ion-icon {
+  color: var(--white-1);
+  font-size: 35px;
+  --ionicon-stroke-width: 40px;
+}
