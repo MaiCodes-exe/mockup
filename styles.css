@@ -134,3 +134,10 @@ html {
     overflow: hidden;
     transition: 0.25s var(--cubic-out);
   }
+
+  .header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
