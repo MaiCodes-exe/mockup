@@ -71,3 +71,11 @@ span,
 input,
 button,
 ion-icon { display: block; }
+
+
+input,
+button {
+  border: none;
+  background: none;
+  font: inherit;
+}
