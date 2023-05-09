@@ -141,3 +141,9 @@ html {
     justify-content: space-between;
     align-items: center;
   }
+
+  .logo {
+    color: var(--white-1);
+    font-size: var(--fs-2);
+    font-weight: var(--fw-600);
+  }
