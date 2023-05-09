@@ -115,3 +115,12 @@ html {
 
 
 .navbar{display: none}
+
+
+.header {
+    background: var(--viridian-green);
+    padding-block: 20px;
+    height: 88px;
+    overflow: hidden;
+    transition: 0.25s var(--cubic-out);
+  }
