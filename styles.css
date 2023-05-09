@@ -79,3 +79,14 @@ button {
   background: none;
   font: inherit;
 }
+
+
+button { cursor: pointer; }
+
+input { width: 100%; }
+
+img { height: auto; }
+
+address { font-style: normal; }
+
+:focus-visible { outline-offset: 5px; }
