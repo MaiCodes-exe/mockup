@@ -183,3 +183,5 @@ html {
   border-bottom: 2px solid transparent;
   width: max-content;
 }
+
+.navbar-link:is(:hover, :focus) { border-color: var(--white-1); }
