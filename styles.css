@@ -172,3 +172,5 @@ html {
   opacity: 1;
   visibility: visible;
 }
+
+.navbar-list { margin-bottom: 15px; }
