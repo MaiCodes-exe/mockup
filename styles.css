@@ -167,3 +167,8 @@ html {
   visibility: hidden;
   transition: var(--transition-1);
 }
+
+.header.active .navbar {
+  opacity: 1;
+  visibility: visible;
+}
