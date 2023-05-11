@@ -143,6 +143,12 @@ html {
 }
 
 
+.btn-outline {
+  --color: var(--oxford-blue);
+  --border-color: var(--silver-chalice);
+}
+
+
 
 
 /* header styling */
