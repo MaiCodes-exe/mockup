@@ -126,6 +126,10 @@ html {
   border-radius: var(--radius-6);  
 }
 
+.btn-secondary:is(:hover, :focus) {
+  --background: transparent;
+  --color: var(--white-1);
+}
 
 
 /* header styling */
