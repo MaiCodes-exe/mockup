@@ -148,7 +148,10 @@ html {
   --border-color: var(--silver-chalice);
 }
 
-
+.btn-outline:is(:hover, :focus) {
+  --color: var(--viridian-green);
+  --border-color: var(--viridian-green);
+}
 
 
 /* header styling */
