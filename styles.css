@@ -92,19 +92,20 @@ address { font-style: normal; }
 :focus-visible { outline-offset: 5px; }
 
 
+
 html {
-    font-family: var(--ff-heebo);
-    font-size: 10px;
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background: var(--white-1);
-    font-size: 1.6rem;
-  }
-  
+  font-family: var(--ff-heebo);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--white-1);
+  font-size: 1.6rem;
+}
 
 
+  
 ::-webkit-scrollbar { width: 10px; }
 
 ::-webkit-scrollbar-track { background: hsl(0, 0%, 95%); }
