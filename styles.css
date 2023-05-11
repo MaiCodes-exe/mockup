@@ -114,6 +114,9 @@ body {
 
 ::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
+
+
+
 /* Reusable styles */
 .container{padding-inline: 15px}
 
@@ -163,13 +166,13 @@ body {
 /* header styling */
 
 
-.navbar{display: none}
+/* .navbar{display: none} */
 
 
 .header {
     background: var(--viridian-green);
     padding-block: 20px;
-    height: 425px;
+    height: 88px;
     overflow: hidden;
     transition: 0.25s var(--cubic-out);
   }
