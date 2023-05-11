@@ -137,8 +137,10 @@ html {
   --border-color: var(--viridian-green);
 }
 
-
-
+.btn-primary:is(:hover, :focus) {
+  --background: transparent;
+  --color: var(--viridian-green);
+}
 
 
 
