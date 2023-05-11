@@ -131,6 +131,17 @@ html {
   --color: var(--white-1);
 }
 
+.btn-primary {
+  --background: var(--viridian-green);
+  --color: var(--white-1);
+  --border-color: var(--viridian-green);
+}
+
+
+
+
+
+
 
 /* header styling */
 
@@ -142,7 +153,7 @@ html {
 .header {
     background: var(--viridian-green);
     padding-block: 20px;
-    height: 88px;
+    height: 425px;
     overflow: hidden;
     transition: 0.25s var(--cubic-out);
   }
