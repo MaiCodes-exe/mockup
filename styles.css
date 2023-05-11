@@ -116,7 +116,15 @@ html {
 /* Reusable styles */
 .container{padding-inline: 15px}
 
-
+.btn{
+  background: var(--background, var(--white-1));
+  color: var(--color, var(--viridian-green));
+  font-weight: var(--fw-700);
+  width: max-content;
+  padding: 10px 25px;
+  border: 2px solid var(--border-color, var(--white-1));
+  border-radius: var(--radius-6);  
+}
 
 
 
@@ -185,3 +193,5 @@ html {
 }
 
 .navbar-link:is(:hover, :focus) { border-color: var(--white-1); }
+
+
