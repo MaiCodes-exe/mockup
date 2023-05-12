@@ -4,9 +4,8 @@
 // navbar toggle
 
 
-
-
-const elemArr = [navCloseBtn, overlay, navOpenBtn];
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const header = document.querySelector("[data-header]");
 
 
 navToggleBtn.addEventListener("click", function () {
