@@ -256,3 +256,10 @@ body {
   max-width: 11ch;
   margin-bottom: 15px;
 }
+
+.hero-text {
+  color: var(--black-coral);
+  font-size: var(--fs-7);
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
