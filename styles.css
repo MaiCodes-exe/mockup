@@ -160,6 +160,11 @@ body {
 
 .section{padding-block: var(--section-padding)}
 
+.section-subtitle{
+  font-family: var(--ff-comforter-brush);
+  color: var(--aikado-yellow);
+  font-size: var(--fs-3);
+}
 
 
 
