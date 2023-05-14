@@ -166,6 +166,8 @@ body {
   font-size: var(--fs-3);
 }
 
+.w-100 { width: 100%; }
+
 
 
 /* header styling */
@@ -270,3 +272,5 @@ body {
   flex-wrap: wrap;
   gap: 15px;
 }
+
+
