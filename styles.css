@@ -168,7 +168,11 @@ body {
 
 .w-100 { width: 100%; }
 
-
+.h2{
+  color: var(--jet);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-400); 
+}
 
 /* header styling */
 
