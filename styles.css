@@ -180,6 +180,21 @@ font-size: var(--fs-4);
 font-weight: var(--fw-400);
 }
 
+.section-title{ font-family: var(--ff-abril-fatface);}
+
+.img-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
 
 
 /* header styling */
