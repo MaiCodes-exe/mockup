@@ -280,3 +280,14 @@ body {
   text-align: center;
   margin-bottom: 15px;
 }
+
+.destination .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.destination-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
