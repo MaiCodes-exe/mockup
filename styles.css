@@ -274,3 +274,9 @@ body {
 }
 
 
+/* DESTINATION  */
+
+.destination .section-subtitle {
+  text-align: center;
+  margin-bottom: 15px;
+}
