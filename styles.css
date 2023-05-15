@@ -188,6 +188,7 @@ font-weight: var(--fw-400);
   object-fit: cover;
 }
 
+.card-banner{background: var(--silver-chalice);}
 
 
 
@@ -317,4 +318,11 @@ font-weight: var(--fw-400);
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+
+.destination-card {
+  position: relative;
+  border-radius: var(--radius-6);
+  overflow: hidden;
 }
