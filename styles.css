@@ -206,6 +206,12 @@ font-weight: var(--fw-400);
   gap: 30px;
 }
 
+.popular-card,
+.blog-card {
+  box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.1);
+  border-radius: var(--radius-6);
+  overflow: hidden;
+}
 
 
 
