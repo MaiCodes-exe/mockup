@@ -383,3 +383,4 @@ font-weight: var(--fw-400);
 
 .popular-card .card-rating data { margin-left: 4px; }
 
+.popular-card .card-location { color: var(--spanish-gray); }
