@@ -233,7 +233,16 @@ font-weight: var(--fw-400);
   margin-inline: auto;
 }
 
+.card-badge time { font-weight: var(--fw-700); }
 
+:is(.popular, .blog) .card-content { padding: 30px 15px; }
+
+.card-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
 
 
 
