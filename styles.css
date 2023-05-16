@@ -200,6 +200,11 @@ font-weight: var(--fw-400);
   margin-bottom: 50px;
 }
 
+.popular-list,
+.blog-list {
+  display: grid;
+  gap: 30px;
+}
 
 
 
