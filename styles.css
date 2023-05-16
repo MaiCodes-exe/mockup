@@ -370,3 +370,11 @@ font-weight: var(--fw-400);
 
 
 .popular-card .card-price { background: var(--viridian-green); }
+
+
+.popular-card .card-rating {
+  background: var(--mikado-yellow);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
