@@ -380,3 +380,6 @@ font-weight: var(--fw-400);
 }
 
 .popular-card .card-rating ion-icon { font-size: 17px; }
+
+.popular-card .card-rating data { margin-left: 4px; }
+
