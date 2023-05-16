@@ -190,7 +190,10 @@ font-weight: var(--fw-400);
 
 .card-banner{background: var(--silver-chalice);}
 
-
+:is(.popular, .blog) .section-subtitle {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 
 
