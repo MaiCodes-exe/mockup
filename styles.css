@@ -361,3 +361,9 @@ font-weight: var(--fw-400);
 
 /* POPULAR DESTINATION */
 
+.popular-card :is(.card-price, .card-rating) {
+  color: var(--white-1);
+  font-size: var(--fs-8);
+  padding: 5px 8px;
+  border-radius: var(--radius-6);
+}
