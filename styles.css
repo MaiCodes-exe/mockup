@@ -195,6 +195,10 @@ font-weight: var(--fw-400);
   margin-bottom: 10px;
 }
 
+:is(.popular, .blog) .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 
 
