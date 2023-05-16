@@ -251,7 +251,9 @@ font-weight: var(--fw-400);
   margin-block: 20px;
 }
 
+:is(.popular, .blog) .card-title > a { color: inherit; }
 
+:is(.popular, .blog) .card-title > a:is(:hover, :focus) { color: var(--viridian-green); }
 
 
 
