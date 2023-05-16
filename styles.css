@@ -367,3 +367,6 @@ font-weight: var(--fw-400);
   padding: 5px 8px;
   border-radius: var(--radius-6);
 }
+
+
+.popular-card .card-price { background: var(--viridian-green); }
