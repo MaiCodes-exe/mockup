@@ -245,6 +245,14 @@ font-weight: var(--fw-400);
 }
 
 
+:is(.popular, .blog) .card-title {
+  color: var(--granite-gray);
+  font-size: var(--fs-5);
+  margin-block: 20px;
+}
+
+
+
 
 
 /* header styling */
