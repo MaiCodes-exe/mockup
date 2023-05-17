@@ -257,6 +257,10 @@ font-weight: var(--fw-400);
 
 
 
+
+
+
+
 /* header styling */
 
 
@@ -489,4 +493,16 @@ about-text,
   color: var(--granite-gray);
   font-weight: var(--fw-600);
   margin-bottom: 5px;
+}
+
+
+
+/* BLOG */
+
+.blog { padding-bottom: 100px; }
+
+.blog-card .author-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
