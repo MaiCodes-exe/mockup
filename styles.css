@@ -514,3 +514,7 @@ about-text,
 }
 
 
+.author-name {
+  color: var(--granite-gray);
+  font-weight: var(--fw-500);
+}
