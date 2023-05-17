@@ -443,3 +443,13 @@ font-weight: var(--fw-400);
 .popular-card .card-rating data { margin-left: 4px; }
 
 .popular-card .card-location { color: var(--spanish-gray); }
+
+
+
+/* ABOUT SECTION */
+
+.about-content { margin-bottom: 50px; }
+
+.about .section-subtitle { margin-bottom: 10px; }
+
+.about .section-title { margin-bottom: 20px; }
